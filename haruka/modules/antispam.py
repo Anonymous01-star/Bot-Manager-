@@ -311,17 +311,17 @@ def enforce_gban(bot: Bot, update: Update):
 
 @run_async
 @user_admin
-def antiscam(bot: Bot, update: Update, args: List[str]):
+def antispam(bot: Bot, update: Update, args: List[str]):
     chat = update.effective_chat  # type: Optional[Chat]
     if len(args) > 0:
         if args[0].lower() in ["on", "yes"]:
             sql.enable_antispam(chat.id)
-            update.effective_message.reply_text(tld(chat.id, "I've enabled antiscam security in this group. This will help to protect you "
-                                                "from scammers, unsavoury characters, and the biggest trolls."))
+            update.effective_message.reply_text(tld(chat.id, "I've enabled antispam security in this group. This will help to protect you "
+                                                "from spammers, unsavoury characters, and the biggest trolls."))
         elif args[0].lower() in ["off", "no"]:
-            sql.disable_antiscam(chat.id)
-            update.effective_message.reply_text(tld(chat.id, "I've disabled antiscam security in this group. GBans won't affect your users "
-                                                "anymore. You'll be less protected from any trolls and scammers "
+            sql.disable_antispam(chat.id)
+            update.effective_message.reply_text(tld(chat.id, "I've disabled antispam security in this group. GBans won't affect your users "
+                                                "anymore. You'll be less protected from any trolls and spammers "
                                                 "though!"))
     else:
         update.effective_message.reply_text(tld(chat.id, "Give me some arguments to choose a setting! on/off, yes/no!\n\n"
@@ -368,8 +368,8 @@ __help__ = """
 *Admin only:*
  - /antispam <on/off/yes/no>: Will disable antispam security in group, or return your current settings.
 
-Antispam are used by the bot owners to ban scammers/spammers across all groups. This helps protect \
-you and your groups by removing scammers/spammers as quickly as possible. They can be disabled for you group by calling \
+Antispam are used by the bot owners to ban spammers across all groups. This helps protect \
+you and your groups by removing spam flooders as quickly as possible. They can be disabled for you group by calling \
 /antispam
 """
 
