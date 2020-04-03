@@ -24,10 +24,10 @@ PM_START = """Hello {}, my name is {}!
 
 You know how hard it is sometimes to manage group so here is the solution for you
 
-I'm group manager bot and Anti-scam for RR Players🃏
+Owner : @anonym200
 
-Active Anti-scam protection in your BM by this command : 
-/antiscam on 
+Active Anti-spam protection in your BM by this command : 
+/antispam on 
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 """
