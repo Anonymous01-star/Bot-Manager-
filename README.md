@@ -4,18 +4,6 @@ Dear anyone kanging my bot, At least, Don't fucking spam my private messages lea
 
 A modular Telegram Python bot running on python3 with an sqlalchemy database.
 
-Can be found on telegram as [Haruka Aya](https://t.me/HarukaAyaBot).
+Can be found on telegram as [Anonymous BotManager ](https://t.me/Abotmanager_bot).
 
-Alternatively, [find me on telegram](https://t.me/anonymous02)! (Keep all support questions in the support chat, where more people can help you.)
-
-You can also join our support group [here!](https://t.me/HarukaAyaBot)
-(Keep in the mind that we does not support any fork of Haruka Aya.)
-## Thanks to
-
-* MrYacha - For pYanaBot :3
-* Skittle - for memes and sticker stuff
-* 1mavarick1 - gmutes, etc 
-* AyraHikari - weather
-* Paul Larsen - marie creator, inspiration to do many things
-* FFBot - for translations functions
-And much more that we couldn't list it here!
+Alternatively, [find me on telegram](https://t.me/anonym200)!   
