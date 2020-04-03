@@ -366,16 +366,16 @@ def __chat_settings__(bot, update, chat, chatP, user):
 
 __help__ = """
 *Admin only:*
- - /antiscam <on/off/yes/no>: Will disable antispam security in group, or return your current settings.
+ - /antispam <on/off/yes/no>: Will disable antispam security in group, or return your current settings.
 
-Antiscam are used by the bot owners to ban scammers/spammers across all groups. This helps protect \
+Antispam are used by the bot owners to ban scammers/spammers across all groups. This helps protect \
 you and your groups by removing scammers/spammers as quickly as possible. They can be disabled for you group by calling \
-/antiscam
+/antispam
 """
 
-__mod_name__ = "Antiscam security"
+__mod_name__ = "Antispam security"
 
-ANTISPAM_STATUS = CommandHandler("antiscam", antiscam, pass_args=True, filters=Filters.group)
+ANTISPAM_STATUS = CommandHandler("antispam", antispam, pass_args=True, filters=Filters.group)
 
 GBAN_HANDLER = CommandHandler(["gban", "fban"], gban, pass_args=True, filters=CustomFilters.sudo_filter | CustomFilters.support_filter)
 UNGBAN_HANDLER = CommandHandler("ungban", ungban, pass_args=True, filters=CustomFilters.sudo_filter | CustomFilters.support_filter)
